@@ -1,0 +1,20 @@
+{
+  "name": "azure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node azureTTS.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "^1.33.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "babel-plugin-module-resolver": "^5.0.0"
+  }
+}
