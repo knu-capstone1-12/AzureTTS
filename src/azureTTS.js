@@ -5,7 +5,7 @@ import * as sdk from "microsoft-cognitiveservices-speech-sdk"
 
 
 // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
-const speechConfig = sdk.SpeechConfig.fromSubscription("SPEECH_KEY", "koreacentral");
+const speechConfig = sdk.SpeechConfig.fromSubscription(process.env.SPEECH_KEY, "koreacentral");
 speechConfig.speechRecognitionLanguage = "ko-KR";
 
 function fromFile() {
